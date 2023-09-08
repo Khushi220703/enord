@@ -1,0 +1,787 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Decorating header */
+
+#head-logo
+{ padding: 10px;
+  margin: 10px;
+  font-size:xx-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+  color: orangered;
+  
+}
+
+
+
+#head-p
+{
+ margin: 20px;
+ position: relative;
+ bottom: 25px;
+ color: red;
+ 
+}
+
+
+
+
+
+#h1
+{
+  background-color: aliceblue;
+  opacity: 0.9;
+}
+
+#body-greet
+{
+  position: relative;
+  top: 180px;
+  
+  color: white;
+}
+ hr
+{
+  border: 1px solid grey;
+  
+ 
+  
+}
+
+#head-logo:hover
+{
+  text-decoration: underline;
+  font-size: xx-large;
+  color: beige;
+ 
+}
+
+#head-about
+{
+  position: relative;
+  left: 1300px;
+  bottom: 95px;
+  border: 1px solid gainsboro;
+  color: white;
+  background-color: black;
+  width: 140px;
+  height: 40px;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#head-about:hover
+{
+  opacity: 0.9;
+
+}
+#head-about:active
+{
+  transform: scale(0.9);
+  border: 1px solid rosybrown;
+
+}
+#head-contact
+{ font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  left: 1000px;
+  bottom: 95px;
+  border: 1px solid gainsboro;
+  color: white;
+  background-color: black;
+  width: 140px;
+  height: 40px;
+}
+
+#head-contact:hover
+{
+  opacity: 0.9;
+  
+}
+
+#head-contact:active
+{
+ 
+  transform: scale(0.9);
+  border: 1px solid rosybrown;
+}
+
+header
+{ opacity: 0.8;
+  background-image: url("drone.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+ 
+  
+ 
+  
+}
+
+/*decorating footer*/
+#footer
+{
+ 
+  color: orange;
+  text-align: center;
+  background-image: url("drone.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 70px;
+ 
+  width: 100%;
+  bottom: 520px;
+  opacity: 0.9;
+ 
+  
+}
+
+/* decorating homepage*/
+
+#home-greet
+{
+  color: white;
+  opacity: 0.9;
+  position: relative;
+  left: 580px;
+  top: 150px;
+}
+
+#home-p
+{
+  color: white;
+  position: relative;
+  left: 630px;
+  top: 135px;
+}
+
+#home-button
+{
+  position: relative;
+  left: 600px;
+  bottom: -135px;
+  border: 1px solid gainsboro;
+  color: white;
+  background-color: black;
+  width: 240px;
+  height: 40px;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.change
+{
+  color: magenta;
+}
+
+#home
+{
+  background-image: url("drone.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 1500px;
+  margin-top: -22px;
+  margin-bottom: -30;
+ 
+}
+/* decorating menu*/
+#menu
+{
+  position: relative;
+  background-image: linear-gradient(180deg, rgb(227, 116, 116), rgb(5, 5, 45));
+  opacity: 0.9;
+  width: 100%;
+  margin-top:-30px;
+  margin-bottom: -17px;
+ 
+}
+
+.heart
+{
+  color: pink;
+}
+
+
+#menu-heading
+{
+  color:pink;
+  text-shadow: 2px 2px maroon;
+  position: relative;
+  left: 605px;
+  margin-top: 25px;
+}
+
+#menu-button
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  margin: 10px;
+ 
+}
+
+.menu-button-1
+{
+  padding: 10px;
+  margin: 10px;
+  background-color: rosybrown;
+  border: 1px solid pink;
+  height: 40px;
+}
+
+.menu-button-1:active
+{ transform: scale(0.9);
+  border: 4px solid pink;
+}
+
+#products
+{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.product-box
+{
+  width: 700px;
+  border:5px solid rosybrown;
+  position: relative;
+  left: 420px;
+  height: 580px;
+  background-color: wheat;
+  margin-bottom: 20px;
+  box-shadow: 15px 10px 20px black;
+  border-radius: 5%;
+}
+
+
+
+.product-image
+{
+  border-bottom: 3px solid rosybrown;
+  
+}
+
+.btn-info
+{
+  color: brown;
+  background-color:rosybrown;
+  width: 300px;
+  position: relative;
+  left: 200px;
+  border: none;
+  font-weight: 800;
+}
+
+
+
+.btn-info:hover
+{
+  background-color: burlywood;
+  transform: scale((0.98));
+}
+
+.glyphicon-heart
+{
+  position: relative;
+  left: 660px;
+  top: 30px;
+  color: red;
+  
+}
+
+article
+{
+  padding: 10px;
+}
+
+/* decorating contact page*/
+
+#contact
+{
+  background-image: linear-gradient(180deg , grey , black);
+  color: white;
+  margin-top: -20px;
+  padding: 40px;
+ 
+}
+
+#addres
+{
+  background-color:red;
+  color: silver;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  position: relative;
+  left: 750px;
+  bottom: 300px;
+}
+/*deocrating about*/
+#about
+{
+  background-image: linear-gradient(to right, rosybrown , lightcoral);
+  
+  position: relative;
+  bottom: 30px;
+  margin-bottom: -30px;
+  color:plum;
+  text-shadow: 1px 1px mediumvioletred;
+  padding: 10px;
+}
+
+#about-head
+{
+  background-image: linear-gradient(to right, pink , lightcoral);
+  opacity: 0.9;
+  text-align: center;
+}
+
+dl
+{
+  background-image: linear-gradient(to right, pink , lightcoral);
+  opacity: 0.9;
+  text-align:left;
+  width: fit-content;
+  border: 2px solid plum;
+  color: peru;
+  font-size: larger;
+  padding: 20px;
+}
+
+#ham
+{
+  display: none;
+}
+#memories
+{
+  position: relative;
+  left: 600px;
+  bottom: 250px;
+  padding: 20px;
+  width: 700px;
+  height: 600px;
+  border: 3px solid rosybrown;
+}
+
+#img1
+{
+  position: relative;
+  right: -10px;
+}
+
+#img2
+{
+  position: relative;
+  right: 20px;
+}
+
+#img3
+{
+  position: relative;
+  right: -40px;
+}
+
+#img4
+{
+  position: relative;
+  right: 10px;
+}
+
+/* Adding responsivenesss to website.*/
+@media screen  and (max-width : 480px){
+
+  #head-logo
+  {
+    padding: 10px;
+    margin: 10px;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+  }
+  
+  header
+  {
+    opacity: 0.8;
+    background-image: url("drone.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 70px;
+    margin-top: -10px;
+    width: 100%;
+ 
+  }
+
+  #head-p
+  {
+    margin: 20px;
+    position: relative;
+    bottom: 25px;
+    color: rgb(165, 17, 17);
+  }
+
+  #head-about
+  {
+  position: relative;
+  left: 120px;
+  bottom: 95px;
+  border: 1px solid gainsboro;
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #head-contact
+  {
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  left: 120px;
+  bottom: 95px;
+  border: 1px solid gainsboro;
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  }
+
+  #footer
+  {
+    width: 100%;
+    color: orange;
+    text-align: center;
+    background-image: url("drone.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70px;
+    bottom: 520px;
+    opacity: 0.9;
+  }
+
+  #about
+  {
+    background-image: linear-gradient(to right, red , black);
+    
+    position: relative;
+    bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    color:rgb(227, 116, 116);
+    text-shadow: 1px 1px maroon;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  #about-head
+  {
+    background-image: linear-gradient(to right, rosybrown , lightcoral);
+    opacity: 0.98;
+    width: 305px;
+  }
+
+  #about-h2
+  {
+    font-size: 15px;
+    position: relative;
+   text-align: left;
+   margin-left: 10px;
+  }
+
+  #about-h5
+  {
+    font-size: 9.5px;
+    position: relative;
+   text-align: left;
+   margin-left: 10px;
+  }
+  
+  dl
+  {
+    background-image: linear-gradient(to right, black , brown);
+    opacity: 0.9;
+    text-align:left;
+    width: 300px;
+    border: 2px solid plum;
+    color: peru;
+    font-size: larger;
+    padding: 20px;
+  }
+  
+
+  #memories
+  {
+    position: relative;
+    left: 10px;
+    top: 50px;
+    padding: 20px;
+    width: 300px;
+    height: 1000px;
+    border: 3px solid rosybrown;
+    background-color: yellow;
+    opacity: 0.8;
+  }
+  
+  #img1
+  {
+    position: relative;
+    right: -10px;
+  }
+  
+  #img2
+  {
+    position: relative;
+    right: -20px;
+  
+    
+  }
+  
+  #img3
+  {
+    position: relative;
+    right: -10px;
+    margin-top: 10px;
+  
+
+  }
+  
+  #img4
+  {
+    position: relative;
+    right: 10px;
+  }
+  
+#contact
+{
+  background-image: linear-gradient(180deg , grey , black);
+  color: white;
+  margin-top: -20px;
+  padding: 40px;
+ 
+}
+
+#addres
+{
+  background-color:red;
+  color: silver;
+  
+  width: 300px;
+  position: relative;
+  left: -10px;
+  top: 40px;
+ 
+}
+
+#home-greet
+{
+  color: black;
+  opacity: 0.9;
+  position: relative;
+  left: 12px;
+  top: 150px;
+}
+
+#home-p
+{
+  color: black;
+  position: relative;
+  left:68px;
+  top: 135px;
+}
+
+#home-button
+{
+  position: relative;
+  left: 40px;
+  bottom: -135px;
+  border: 1px solid gainsboro;
+  color: white;
+  background-color: black;
+  width: 240px;
+  height: 40px;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.change
+{
+  color: magenta;
+}
+
+#home
+{
+  background-image: url("dronez.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 1500px;
+  margin-top: -22px;
+  margin-bottom: -30;
+ 
+}
+
+#menu
+{
+  position: relative;
+  background-image: linear-gradient(180deg, rgb(227, 116, 116), rgb(5, 5, 45));
+  opacity: 0.9;
+  width: 100%;
+  margin-top:-30px;
+  margin-bottom: -17px;
+ 
+}
+
+
+
+
+#menu-heading
+{
+  color:pink;
+  text-shadow: 2px 2px maroon;
+  position: relative;
+  left: 60px;
+  margin-top: 25px;
+  font-size: xx-large;
+}
+
+#menu-button
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+ 
+ 
+}
+
+.menu-button-1
+{
+   width: 60px;
+  background-color: rosybrown;
+  border: 1px solid pink;
+  position: relative;
+ font-size: x-small;
+}
+
+.menu-button-1:active
+{ transform: scale(0.9);
+  border: 4px solid pink;
+}
+
+#products
+{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.product-box
+{
+  width: 300px;
+  border:5px solid rosybrown;
+  position: relative;
+  left: 20px;
+  height: 380px;
+  background-color: wheat;
+  margin-bottom: 20px;
+  box-shadow: 15px 10px 20px black;
+  border-radius: 5%;
+}
+
+
+
+.product-image
+{
+  border-bottom: 3px solid rosybrown;
+  
+}
+
+.btn-info
+{
+  color: brown;
+  background-color:rosybrown;
+  width: 200px;
+  position: relative;
+  left: 30px;
+  border: none;
+  font-weight: 800;
+}
+
+
+
+.btn-info:hover
+{
+  background-color: burlywood;
+  transform: scale((0.98));
+}
+
+.glyphicon-heart
+{
+  position: relative;
+  left: 250px;
+  top: 30px;
+  color: red;
+  
+}
+
+article
+{
+  padding: 10px;
+}
+}
+
+
+
+
+

@@ -1,0 +1,294 @@
+const load10 = () =>
+   {
+   const x = product[9].name;
+    return x;
+   
+   } 
+   const load101 = () =>
+   {
+   const x = product[9].category;
+    return x;
+   
+   } 
+   const load102 = () =>
+   {
+   const x = product[9].price;
+    return x;
+   
+   } 
+   const load103 = () =>
+   {
+   const x = product[9].desc;
+    return x;
+   
+   } 
+   const load1 = () =>
+   {
+   const x = product[0].name;
+    return x;
+   
+   } 
+   const load11 = () =>
+   {
+   const x = product[0].category;
+    return x;
+   
+   } 
+   const load12 = () =>
+   {
+   const x = product[0].price;
+    return x;
+   
+   } 
+   const load13 = () =>
+   {
+   const x = product[0].desc;
+    return x;
+   
+   } 
+   const load2 = () =>
+   {
+   const x = product[1].name;
+    return x;
+   
+   } 
+   const load21 = () =>
+   {
+   const x = product[1].category;
+    return x;
+   
+   } 
+   const load22 = () =>
+   {
+   const x = product[1].price;
+    return x;
+   
+   } 
+   const load23 = () =>
+   {
+   const x = product[1].desc;
+    return x;
+   
+   } 
+   const load3 = () =>
+   {
+   const x = product[2].name;
+    return x;
+   
+   } 
+
+   const load31 = () =>
+   {
+   const x = product[2].category;
+    return x;
+   
+   } 
+   const load32 = () =>
+   {
+   const x = product[2].price;
+    return x;
+   
+   } 
+   const load33 = () =>
+   {
+   const x = product[2].desc;
+    return x;
+   
+   } 
+   const load4 = () =>
+   {
+   const x = product[3].name;
+    return x;
+   
+   } 
+   const load41 = () =>
+   {
+   const x = product[3].category;
+    return x;
+   
+   } 
+   const load42 = () =>
+   {
+   const x = product[3].price;
+    return x;
+   
+   } 
+   const load43 = () =>
+   {
+   const x = product[3].desc;
+    return x;
+   
+   } 
+   const load5 = () =>
+   {
+   const x = product[4].name;
+    return x;
+   
+   }
+   const load51 = () =>
+   {
+   const x = product[4].name;
+    return x;
+   
+   }
+   const load52 = () =>
+   {
+   const x = product[4].category;
+    return x;
+   
+   }
+   const load53 = () =>
+   {
+   const x = product[4].price;
+    return x;
+   
+   }
+   const load54 = () =>
+   {
+   const x = product[4].desc;
+    return x;
+   
+   }
+   
+   const load6 = () =>
+   {
+   const x = product[5].name;
+    return x;
+   
+   } 
+   const load61 = () =>
+   {
+   const x = product[5].category;
+    return x;
+   
+   } 
+   const load62 = () =>
+   {
+   const x = product[5].price;
+    return x;
+   
+   } 
+   const load63 = () =>
+   {
+   const x = product[5].desc;
+    return x;
+   
+   } 
+
+   const load7 = () =>
+   {
+   const x = product[6].name;
+    return x;
+   
+   } 
+
+   const load71 = () =>
+   {
+   const x = product[6].category;
+    return x;
+   
+   } 
+
+   const load72 = () =>
+   {
+   const x = product[6].price;
+    return x;
+   
+   } 
+
+   const load73 = () =>
+   {
+   const x = product[6].desc;
+    return x;
+   
+   } 
+
+   const load9 = () =>
+   {
+   const x = product[7].name;
+    return x;
+   
+   }
+   const load91 = () =>
+   {
+   const x = product[7].category;
+    return x;
+   
+   }
+   const load92 = () =>
+   {
+   const x = product[7].price;
+    return x;
+   
+   }
+   const load93 = () =>
+   {
+   const x = product[7].desc;
+    return x;
+   
+   }
+   const load8 = () =>
+   {
+   const x = product[8].name;
+    return x;
+   
+   }  
+   const load81 = () =>
+   {
+   const x = product[8].category;
+    return x;
+   
+   }  
+   const load82 = () =>
+   {
+   const x = product[8].price;
+    return x;
+   
+   }  
+   const load83 = () =>
+   {
+   const x = product[8].desc;
+    return x;
+   
+   }  
+
+   //heart
+
+   const favr1 = () =>
+  {  
+    document.getElementById("1").classList.toggle("heartColor");
+  }
+  const favr2 = () =>
+  {  
+    document.getElementById("2").classList.toggle("heartColor");
+  }
+  const favr3 = () =>
+  {  
+    document.getElementById("3").classList.toggle("heartColor");
+  }
+  const favr4 = () =>
+  {  
+    document.getElementById("4").classList.toggle("heartColor");
+  }
+  const favr5 = () =>
+  {  
+    document.getElementById("5").classList.toggle("heartColor");
+  }
+  const favr6 = () =>
+  {  
+    document.getElementById("6").classList.toggle("heartColor");
+  }
+  const favr7 = () =>
+  {  
+    document.getElementById("7").classList.toggle("heartColor");
+  }
+  const favr8 = () =>
+  {  
+    document.getElementById("8").classList.toggle("heartColor");
+  }
+  const favr9 = () =>
+  {  
+    document.getElementById("9").classList.toggle("heartColor");
+  }
+
+  
